@@ -8,7 +8,6 @@ function App() {
     console.log("Value Added");
     setCounter((counter + 1));
   };
-
   
   const RemoveValue = () => {
     console.log("Value Removed");
