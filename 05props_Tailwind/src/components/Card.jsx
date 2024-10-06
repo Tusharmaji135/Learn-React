@@ -27,6 +27,5 @@ function Card(props) {
     </>
   );
 }
-
 export default Card;
 // rfce
