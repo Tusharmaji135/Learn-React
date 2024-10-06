@@ -90,7 +90,7 @@ function App() {
               defaultChecked={charAllow}
               id="charInput"
               onChange={() => {
-                setCharAllow((prev) => !prev);
+                setCharAllow(!charAllow);
               }}
             />
           </div>
